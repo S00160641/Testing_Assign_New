@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Calculate Premium";
+}
+
+<form action="/Home/InputForm" method="post" class="form">
+    <h1>Calculate your Premium</h1>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <input id="gender" type="text" class="form-control" name="gender"/>
+    </div>
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <input id="age" type="text" class="form-control" name="age" />
+    </div>
+
+    <input id="submit" type="submit" value="Submit" class="btn btn-primary"/>
+</form>
